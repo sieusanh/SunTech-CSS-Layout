@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 1024px;
+    margin: 0px auto;
+    text-align: center;
+    color: #FFF;
+}
+
+#header{
+    width: 100%;
+    height: 40px;
+    background-color:blue;
+    color: #FFF;
+    line-height: 40px;
+}
+
+#main{
+    width: 100%;
+    height: 550px;
+}
+
+#main, #left, #right, #right-main{
+    float: left;
+}
+
+#left{
+    width: 15%;
+    height: 100%;
+    background-color: #ff9f71;
+    line-height: 550px;
+}
+
+#right{
+    width: 85%;
+    height: 100%;
+}
+
+#menu{
+    width: 100%;
+    height: 10%;
+    background-color: #ff8000;
+    float:left;
+    line-height: 55px;
+}
+
+#right-main{
+    width: 100%;
+    height: 82%;
+    /*float: left;*/
+}
+
+#right-main-center{
+    width: 85%;
+    height: 100%;
+    background-color: #FFF;
+    line-height: 451px;
+    float: left;
+}
+
+#right-main-right{
+    width: 15%;
+    height: 100%;
+    background-color: #00ff40;
+    float: left;    
+    line-height: 451px;
+}
+
+#bottom{
+    width: 100%;
+    height: 8%;
+    background-color: #ffff4a;
+    line-height: 44px;
+    clear: both;
+}
+
+
+#footer{
+    width: 100%;
+    height: 50px;
+}
+
+#footer-left{
+    width: 893px;
+    height: 100%;
+    float: left;
+    background-color: #0080ff;
+    line-height: 50px;
+}
+
+#footer-right{
+    width: 131px;
+    height: 100%;
+    float: left;
+    background-color: #000;
+    line-height: 50px;
+}
